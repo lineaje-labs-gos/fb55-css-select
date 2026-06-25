@@ -1,6 +1,6 @@
 {
     "name": "css-select",
-    "version": "3.0.4",
+    "version": "3.0.4-lineaje-01",
     "description": "a CSS selector compiler/engine",
     "author": "Felix Boehm <me@feedic.com>",
     "funding": "https://github.com/sponsors/fb55",
@@ -11,7 +11,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/fb55/css-select.git"
+        "url": "https://github.com/lineaje-labs-gos/fb55-css-select"
     },
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
@@ -54,6 +54,12 @@
         "prepare": "npm run build"
     },
     "license": "BSD-2-Clause",
+    "contributors": [
+        {
+            "name": "Lineaje DepFixer",
+            "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+        }
+    ],
     "prettier": {
         "tabWidth": 4
     },
